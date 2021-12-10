@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <CopyFileAfterTargets>PostBuildEvent</CopyFileAfterTargets>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\glfw-3.3.bin.WIN64\include;$(SolutionDir)Dependencies\glew-2.1.0\include;$(SolutionDir)Dependencies\freeImage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glfw-3.3.bin.WIN64\lib-vc2017;$(SolutionDir)Dependencies\glew-2.1.0\lib\Release\x64;$(SolutionDir)Dependencies\freeImage\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3dll.lib;glew32.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Dependencies\glew-2.1.0\bin\Release\x64\glew32.dll" "$(TargetDir)glew32.dll"
+copy "$(SolutionDir)Dependencies\glfw-3.3.bin.WIN64\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll"
+copy "$(SolutionDir)Dependencies\freeImage\lib\FreeImage.dll" "$(TargetDir)FreeImage.dll"
+if Exist "$(ProjectDir)*.glsl" copy "$(ProjectDir)*.glsl" "$(TargetDir.TrimEnd('\'))"
+if %errorlevel% geq 1 exit %errorlevel%
+if Exist "$(ProjectDir)Models" robocopy /mir "$(ProjectDir)Models" "$(TargetDir)Models"
+if %errorlevel% leq 1 exit 0 else exit %errorlevel%</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

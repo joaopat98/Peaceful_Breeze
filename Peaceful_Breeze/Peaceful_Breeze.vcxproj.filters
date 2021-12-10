@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{f5609d49-2279-4d53-91d1-fdf1dc5cbca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{c269ea14-fbea-4f83-846b-3c567bbb07d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{2f4af2c6-1bbe-4390-8b64-600e156651ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{1ae4a3be-3af9-4f14-bdbb-c076e7c49238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\postprocessing">
+      <UniqueIdentifier>{95950d43-aee7-49aa-a6df-af93bdb69622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\postprocessing\effects">
+      <UniqueIdentifier>{8b082086-9721-4f24-8546-ac8311df10fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\postprocessing">
+      <UniqueIdentifier>{efa1bbd5-c420-415f-9faa-4a9dfb22cab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\postprocessing\effects">
+      <UniqueIdentifier>{e31bf3ef-2933-4c59-b40f-4af3c00f63ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2f074faf-82df-45b3-87e0-7e009542a025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\postprocessing">
+      <UniqueIdentifier>{1ece4440-a771-4ac5-8b08-a8cfd8410ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\postprocessing\bloom">
+      <UniqueIdentifier>{47adfd97-c940-4ac4-80b3-36a1eceab7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\postprocessing\hdr">
+      <UniqueIdentifier>{249e4c8d-36dc-41d7-89f1-a32da6fc1dc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\postprocessing\dof">
+      <UniqueIdentifier>{4fba8312-9d9d-4273-b68f-4c57c43c40f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lighting">
+      <UniqueIdentifier>{3e2fddf2-9668-40e3-8d23-ef5684ce18b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lighting">
+      <UniqueIdentifier>{be0f4acf-2a18-45a0-8d51-f6fd0bdf85d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\lighting">
+      <UniqueIdentifier>{9c6c5b5a-d01b-442a-a860-7b90b356c09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ssao">
+      <UniqueIdentifier>{f8de1c9e-2abf-45d4-9c7d-b7d8ab218012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\deffered">
+      <UniqueIdentifier>{771b4179-f638-43cc-8082-ce8a3eab7837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\tesselation">
+      <UniqueIdentifier>{9c466bdd-fdee-4775-8085-a7cd923db2df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\postprocessing\dither">
+      <UniqueIdentifier>{1675d229-c48f-4e6a-bed8-64c60d9c4e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\postprocessing\fxaa">
+      <UniqueIdentifier>{2ef611a5-e998-4f3c-9728-0fbaa5209227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\skybox">
+      <UniqueIdentifier>{f8998f8b-ea26-46a1-aecf-9b9f0e05b65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\utils">
+      <UniqueIdentifier>{d2b4b69f-cbbe-4ffe-96dc-a8ce7bfbeace}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternions.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="post_processing.h">
+      <Filter>Header Files\postprocessing</Filter>
+    </ClInclude>
+    <ClInclude Include="bloom.h">
+      <Filter>Header Files\postprocessing\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="dof.h">
+      <Filter>Header Files\postprocessing\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="hdr.h">
+      <Filter>Header Files\postprocessing\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="fly_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defered_rendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Header Files\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="shadowbuffer.h">
+      <Filter>Header Files\lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="dither.h">
+      <Filter>Header Files\postprocessing\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="fxaa.h">
+      <Filter>Header Files\postprocessing\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="screenshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="quaternions.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="vectors.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dof.cpp">
+      <Filter>Source Files\postprocessing\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="hdr.cpp">
+      <Filter>Source Files\postprocessing\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="bloom.cpp">
+      <Filter>Source Files\postprocessing\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="post_processing.cpp">
+      <Filter>Source Files\postprocessing</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="deferred_rendering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fly_camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Source Files\lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowbuffer.cpp">
+      <Filter>Source Files\lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="dither.cpp">
+      <Filter>Source Files\postprocessing\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="fxaa.cpp">
+      <Filter>Source Files\postprocessing\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="cubeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="screenshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="mesh_frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="mesh_geom.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="tex_frag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="tex_vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="bloom_blur.glsl">
+      <Filter>Shaders\postprocessing\bloom</Filter>
+    </None>
+    <None Include="bloom_composite.glsl">
+      <Filter>Shaders\postprocessing\bloom</Filter>
+    </None>
+    <None Include="bloom_threshold.glsl">
+      <Filter>Shaders\postprocessing\bloom</Filter>
+    </None>
+    <None Include="hdr_tonemapping.glsl">
+      <Filter>Shaders\postprocessing\hdr</Filter>
+    </None>
+    <None Include="gbuffer_vert.glsl">
+      <Filter>Shaders\deffered</Filter>
+    </None>
+    <None Include="gbuffer_frag.glsl">
+      <Filter>Shaders\deffered</Filter>
+    </None>
+    <None Include="ssao_blur_frag.glsl">
+      <Filter>Shaders\ssao</Filter>
+    </None>
+    <None Include="ssao_blur_vert.glsl">
+      <Filter>Shaders\ssao</Filter>
+    </None>
+    <None Include="ssao_frag.glsl">
+      <Filter>Shaders\ssao</Filter>
+    </None>
+    <None Include="luminance.glsl">
+      <Filter>Shaders\postprocessing\hdr</Filter>
+    </None>
+    <None Include="shadowshader_fs.glsl">
+      <Filter>Shaders\lighting</Filter>
+    </None>
+    <None Include="shadowshader_vs.glsl">
+      <Filter>Shaders\lighting</Filter>
+    </None>
+    <None Include="toonshader_fs.glsl">
+      <Filter>Shaders\lighting</Filter>
+    </None>
+    <None Include="toonshader_vs.glsl">
+      <Filter>Shaders\lighting</Filter>
+    </None>
+    <None Include="ssao_vert.glsl">
+      <Filter>Shaders\ssao</Filter>
+    </None>
+    <None Include="grass_tcs.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="grass_tes.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="mesh_vert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="dither.glsl">
+      <Filter>Shaders\postprocessing\dither</Filter>
+    </None>
+    <None Include="fxaa.glsl">
+      <Filter>Shaders\postprocessing\fxaa</Filter>
+    </None>
+    <None Include="grass_vert.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="grass_frag.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="grass_geom_deffered.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="grass_geom.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="grass_geom_shadow.glsl">
+      <Filter>Shaders\tesselation</Filter>
+    </None>
+    <None Include="skybox_fragment.glsl">
+      <Filter>Shaders\skybox</Filter>
+    </None>
+    <None Include="skybox_vertex.glsl">
+      <Filter>Shaders\skybox</Filter>
+    </None>
+    <None Include="dof_coc.glsl">
+      <Filter>Shaders\postprocessing\dof</Filter>
+    </None>
+    <None Include="dof_coc_blur.glsl">
+      <Filter>Shaders\postprocessing\dof</Filter>
+    </None>
+    <None Include="dof_apply.glsl">
+      <Filter>Shaders\postprocessing\dof</Filter>
+    </None>
+    <None Include="noise.glsl">
+      <Filter>Shaders\utils</Filter>
+    </None>
+  </ItemGroup>
+</Project>
